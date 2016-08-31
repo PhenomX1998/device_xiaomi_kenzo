@@ -155,9 +155,6 @@ TARGET_PROVIDES_KEYMASTER := true
 BOARD_LIGHTS_VARIANT := aw2013
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Malloc
-MALLOC_IMPL := dlmalloc
-
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
