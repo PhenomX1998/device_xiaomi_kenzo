@@ -30,6 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
+# libkenzo
+ PRODUCT_PACKAGES += \
+     libkenzo
+     
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 1920
@@ -235,12 +239,12 @@ PRODUCT_PACKAGES += \
     sensors.msm8952
 
 # Snapdragon Camera
-PRODUCT_PACKAGES += \
-    Snap
+# PRODUCT_PACKAGES += \
+#    Snap
 
 # Snap Config
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.cpp.duplication=false
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    persist.camera.cpp.duplication=false
 
 # Sound trigger
 PRODUCT_COPY_FILES += \
